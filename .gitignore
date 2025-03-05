@@ -1,0 +1,27 @@
+# Go modules
+go.sum
+go.work
+go.work.sum
+
+# Кэш сборки Go
+.cache/
+*.test
+
+# Конфигурационные файлы IDE и редакторов кода
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.lock
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Docker и контейнеры
+docker-compose.override.yml
